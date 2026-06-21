@@ -30,4 +30,8 @@ PriorityLens does not rely solely on model predictions. A dedicated validation l
 
 ## Results
 
-Achieved high classification performance while improving reliability through business-rule validation.
+### Confusion Matrix
+![Confusion Matrix](images/confusion_matrix.png)
+
+### Validation Example
+![Validation Example](images/borderline_test.png)
