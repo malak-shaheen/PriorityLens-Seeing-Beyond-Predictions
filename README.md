@@ -17,6 +17,8 @@ PriorityLens does not rely solely on model predictions. A dedicated validation l
 - Pandas
 - NumPy
 - Scikit-Learn
+- FastAPI
+- Swagger UI
 
 ## Workflow
 
@@ -27,6 +29,20 @@ PriorityLens does not rely solely on model predictions. A dedicated validation l
 5. Detection of potential urgency overestimation
 6. Identification of genuinely high-priority users
 7. Final priority assignment
+
+## Deployment
+
+The model was deployed using **FastAPI** as a RESTful API service.
+
+### Features:
+- REST API for inference
+- Swagger UI for interactive testing
+- JSON input/output format
+- Real-time predictions
+
+### API Documentation:
+Run locally and visit:
+`http://127.0.0.1:8000/docs`
 
 ## Results
 
