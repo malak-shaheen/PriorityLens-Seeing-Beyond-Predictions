@@ -1,13 +1,15 @@
 # PriorityLens-Seeing-Beyond-Predictions
-AI-driven urgency classification system enhanced with business logic validation for accurate prioritization.
+
+PriorityLens does not rely solely on model predictions. A dedicated validation layer evaluates behavioral consistency and activity signals to distinguish between users who appear urgent and users who demonstrate genuine need, improving decision reliability in borderline cases.
 
 ## Features
 
-- Random Forest classification
+- Random Forest urgency classification
+- Behavioral feature analysis
 - Business-rule validation layer
-- Edge case handling
-- Priority scoring
-- Reliable urgency prediction
+- Detection of overestimated urgency levels
+- Identification of genuinely high-need users
+- Priority ranking and decision support
 
 ## Tech Stack
 
@@ -18,11 +20,13 @@ AI-driven urgency classification system enhanced with business logic validation 
 
 ## Workflow
 
-1. Data preprocessing
-2. Feature engineering
-3. Random Forest classification
-4. Business logic validation
-5. Final priority assignment
+1. User behavioral data collection
+2. Feature extraction and preprocessing
+3. Urgency prediction using Random Forest
+4. Validation against business rules and activity patterns
+5. Detection of potential urgency overestimation
+6. Identification of genuinely high-priority users
+7. Final priority assignment
 
 ## Results
 
